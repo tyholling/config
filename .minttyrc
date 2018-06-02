@@ -1,0 +1,14 @@
+BackgroundColour=24,24,24
+BellTaskbar=no
+BellType=0
+BoldAsFont=no
+Columns=147
+ConfirmExit=no
+CursorBlinks=no
+CursorType=underscore
+Font=Consolas
+FontHeight=14
+Rows=40
+Scrollbar=none
+Term=xterm-256color
+Window=max

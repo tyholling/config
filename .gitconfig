@@ -1,0 +1,9 @@
+[user]
+    name = Tyler Hollingsworth
+    email = tyholling@gmail.com
+[color]
+    ui = always
+[core]
+    autocrlf = input
+[push]
+    default = simple
