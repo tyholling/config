@@ -1,19 +1,16 @@
-alias cls="history -c && clear"
+#!/bin/bash
 
 alias gitb="git branch --all --list"
-alias gitl="git log --oneline dev..HEAD"
-alias gitll="git log --graph --oneline"
+alias gitl="git log --decorate --graph --oneline"
 alias gits="git status --branch --short"
 
-alias grep="grep --color=always --ignore-case"
-
-alias la="clear && ls --color -ghlopA"
-alias lh="clear && ls --color -ghlopd .?*"
-alias ll="clear && ls --color -ghlop"
-alias lp="clear && ls --color -ghlop | grep /$"
-
-function cd() { builtin cd $@ && ll; }
+alias la="ls -hlpA"
+alias lh="ls -hlpd .?*"
+alias ll="ls -hlp"
+alias lm="ls -pC"
+alias lp="ls -hlp | grep /$"
+alias ls="ls --color"
+function cd() { builtin cd $@ && clear && ll; }
 
 export HISTFILE=""
-export PATH="/mingw64/bin:$PATH"
-export PS1="[\w] "
+export PS1="[\h \w] "
