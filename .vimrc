@@ -1,5 +1,6 @@
 set cindent
 set colorcolumn=120
+set cursorcolumn
 set cursorline
 set encoding=utf-8
 set expandtab
@@ -7,6 +8,7 @@ set fillchars+=vert:\
 set hlsearch
 set ignorecase
 set incsearch
+set laststatus=2
 set listchars+=tab:\ \ 
 set mouse=a
 set nobomb
@@ -21,7 +23,10 @@ set wildignorecase
 syntax on
 
 autocmd colorscheme * highlight ColorColumn     cterm=none ctermbg=Black
+autocmd colorscheme * highlight CursorColumn   	cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorLine      cterm=none ctermbg=Black
+autocmd colorscheme * highlight CursorLineNr  	cterm=none ctermfg=White
+autocmd colorscheme * highlight LineNr		    cterm=none ctermfg=Magenta
 autocmd colorscheme * highlight MatchParen      cterm=none ctermbg=Black
 autocmd colorscheme * highlight Search          cterm=none ctermbg=DarkBlue ctermfg=White
 autocmd colorscheme * highlight StatusLine      cterm=none ctermbg=Black
@@ -31,7 +36,10 @@ autocmd colorscheme * highlight VertSplit       cterm=none ctermbg=Black
 autocmd colorscheme * highlight Visual          cterm=none ctermbg=Black
 colorscheme elflord
 
-nnoremap <silent> <2-LeftMouse> *N
-nnoremap n nzz
+nmap <C-Down> <C-e><Down>
+nmap <C-Up> <C-y><Up>
+nmap <2-LeftMouse> *N
+nmap n nzz
 
+autocmd bufread .vagrantuser set syntax=yaml
 autocmd bufread Vagrantfile set syntax=ruby
