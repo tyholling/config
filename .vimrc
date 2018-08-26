@@ -23,10 +23,10 @@ set wildignorecase
 syntax on
 
 autocmd colorscheme * highlight ColorColumn     cterm=none ctermbg=Black
-autocmd colorscheme * highlight CursorColumn   	cterm=none ctermbg=Black
+autocmd colorscheme * highlight CursorColumn    cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorLine      cterm=none ctermbg=Black
-autocmd colorscheme * highlight CursorLineNr  	cterm=none ctermfg=White
-autocmd colorscheme * highlight LineNr		    cterm=none ctermfg=Magenta
+autocmd colorscheme * highlight CursorLineNr    cterm=none ctermfg=White
+autocmd colorscheme * highlight LineNr          cterm=none ctermfg=Magenta
 autocmd colorscheme * highlight MatchParen      cterm=none ctermbg=Black
 autocmd colorscheme * highlight Search          cterm=none ctermbg=DarkBlue ctermfg=White
 autocmd colorscheme * highlight StatusLine      cterm=none ctermbg=Black
