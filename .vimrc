@@ -17,6 +17,8 @@ set nowrap
 set number
 set ruler
 set shiftwidth=4
+set splitbelow
+set splitright
 set tabstop=4
 set viminfo=
 set wildignorecase
@@ -43,3 +45,8 @@ nmap n nzz
 
 autocmd bufread .vagrantuser set syntax=yaml
 autocmd bufread Vagrantfile set syntax=ruby
+
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_sort_by = "name"
+let g:netrw_sort_options = "i"
