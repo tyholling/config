@@ -10,9 +10,9 @@ alias ll="ls -hlp"
 alias lm="ls -pC"
 alias lp="ls -hlp | grep /$"
 alias ls="ls --color"
-function cd() { builtin cd $@ && ll; }
+function cd() { clear && builtin cd $@ && la; }
 
 export HISTFILE=""
 export PATH="/mingw64/bin:$PATH"
-export PS1="[\h \w] "
+export PS1="[\w] "
 export VISUAL="vim"
