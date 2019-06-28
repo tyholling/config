@@ -1,9 +1,12 @@
 [user]
     name = Tyler Hollingsworth
     email = tyholling@gmail.com
-[color]
-    ui = always
 [core]
     autocrlf = input
+[color]
+    ui = always
+    status = always
 [push]
     default = simple
+[fetch]
+    prune = true

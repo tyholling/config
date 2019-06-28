@@ -1,10 +1,10 @@
-BackgroundColour=20,20,40
+BackgroundColour=25,25,25
 CopyAsRTF=no
 CursorBlinks=no
+CursorColor=192,192,192
 CursorType=underscore
 Font=Consolas
 FontHeight=12
-ScrollbackLines=1000000
 Scrollbar=none
 Term=xterm-256color
 Window=max

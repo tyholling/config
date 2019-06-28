@@ -1,17 +1,18 @@
-#!/bin/bash
-
 alias gitb="git branch --all --list"
-alias gitl="git log --decorate --first-parent --graph --oneline master~.."
-alias gits="git status --branch --short"
+alias gitla="git log --graph --oneline"
+alias gitl="git log --first-parent --graph --oneline master~.."
+alias gitsa="git status --branch --short | less -FRX"
+alias gits="git status --branch --short . | less -FRX"
 
-alias la="ls -hlpA"
-alias lh="ls -hlpd .?*"
-alias ll="ls -hlp"
+alias la="ls -ghlopA"
+alias lh="ls -ghlopd .?*"
+alias ll="ls -ghlop"
 alias lm="ls -pC"
-alias lp="ls -hlp | grep /$"
+alias lp="ls -ghlop | grep /$"
 alias ls="ls --color"
-function cd() { clear && builtin cd $@ && la; }
+function cd() { clear && builtin cd $@ && lp; }
 
+export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
 export PATH="/mingw64/bin:$PATH"
 export PS1="[\w] "
