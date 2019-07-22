@@ -6,6 +6,16 @@
 [color]
     ui = always
     status = always
+[color "diff"]
+    meta = dim
+    old = red black
+[color "status"]
+    localBranch = green bold
+    remoteBranch = red bold
+[diff]
+    algorithm = minimal
+    context = 4
+    noprefix = true
 [push]
     default = simple
 [fetch]
