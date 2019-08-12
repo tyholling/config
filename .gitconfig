@@ -4,8 +4,9 @@
 [core]
     autocrlf = input
 [color]
-    ui = always
+    diff = always
     status = always
+    ui = always
 [color "diff"]
     meta = dim
     old = red black
@@ -14,7 +15,7 @@
     remoteBranch = red bold
 [diff]
     algorithm = minimal
-    context = 4
+    context = 2
     noprefix = true
 [push]
     default = simple

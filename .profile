@@ -1,4 +1,5 @@
 alias gitb="git branch --all --list"
+alias gitd="git diff | less -FRX"
 alias gitla="git log --graph --oneline"
 alias gitl="git log --first-parent --graph --oneline master^.."
 alias gitsa="git status --branch --short | less -FRX"
