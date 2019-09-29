@@ -30,6 +30,7 @@ autocmd colorscheme * highlight CursorLine      cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorLineNr    cterm=none                  ctermfg=White
 autocmd colorscheme * highlight LineNr          cterm=none                  ctermfg=Magenta
 autocmd colorscheme * highlight MatchParen      cterm=none ctermbg=Black
+autocmd colorscheme * highlight NonText         cterm=none                  ctermfg=Black
 autocmd colorscheme * highlight Search          cterm=none ctermbg=DarkBlue ctermfg=White
 autocmd colorscheme * highlight StatusLine      cterm=none ctermbg=Black
 autocmd colorscheme * highlight StatusLineNC    cterm=none ctermbg=Black

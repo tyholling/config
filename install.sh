@@ -2,8 +2,11 @@
 
 cp .ackrc       ~/
 cp .gitconfig   ~/
-cp .hushlogin   ~/
 cp .inputrc     ~/
 cp .minttyrc    ~/
 cp .profile     ~/
 cp .vimrc       ~/
+
+cp .ssh/config  ~/.ssh/
+
+touch ~/.hushlogin

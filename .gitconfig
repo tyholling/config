@@ -3,6 +3,7 @@
     email = tyholling@gmail.com
 [core]
     autocrlf = input
+    safecrlf = false
 [color]
     diff = always
     status = always
