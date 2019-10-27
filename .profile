@@ -4,7 +4,7 @@ alias gitla="git log --graph --oneline"
 alias gits="git status --branch --short . | less"
 alias gitsa="git status --branch --short | less"
 
-alias grep="grep --color=always -Iinr"
+alias grep="grep --color=always"
 
 alias ll="ls --color -ghlop"
 alias la="ll -A"
@@ -16,6 +16,5 @@ function cd() { clear && builtin cd $@ && la; }
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
 export LESS="-FRX"
-export PATH="/mingw64/bin:$PATH"
 export PS1="[\w] "
 export VISUAL="vim"
