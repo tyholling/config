@@ -1,7 +1,7 @@
 BackgroundColour=20,20,20
 CopyAsRTF=no
 CursorBlinks=no
-CursorColor=192,192,192
+CursorColour=192,192,192
 CursorType=underscore
 Font=Consolas
 FontHeight=12
