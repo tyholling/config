@@ -11,7 +11,7 @@ alias la="ll -A"
 alias lh="ll -d .?*"
 alias lm="ll -C"
 alias lp="ll | grep /$"
-function cd() { clear && builtin cd $@ && lp; }
+function cd() { clear && builtin cd $@ && la; }
 
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
