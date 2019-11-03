@@ -17,10 +17,10 @@ set novisualbell
 set nowrap
 set number
 set ruler
-set shiftwidth=2
+set shiftwidth=4
 set splitbelow
 set splitright
-set tabstop=2
+set tabstop=4
 set viminfo=
 set wildignorecase
 syntax on
@@ -49,3 +49,5 @@ let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_sort_by = "name"
 let g:netrw_sort_options = "i"
+
+autocmd BufRead Vagrantfile set syntax=ruby
