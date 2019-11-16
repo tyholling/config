@@ -1,24 +1,30 @@
-[user]
-    name = Tyler Hollingsworth
-    email = tyholling@gmail.com
-[core]
-    autocrlf = input
-    safecrlf = false
+[clean]
+  requireForce = false
 [color]
-    diff = always
-    status = always
-    ui = always
+  diff = always
+  status = always
 [color "diff"]
-    meta = dim
-    old = red black
+  meta = dim
+  old = red black
 [color "status"]
-    localBranch = green bold
-    remoteBranch = red bold
+  localBranch = green bold
+  remoteBranch = red bold
+[core]
+  autocrlf = input
+  safecrlf = false
+  whitespace = cr-at-eol
 [diff]
-    algorithm = minimal
-    context = 2
-    noprefix = true
-[push]
-    default = simple
+  algorithm = minimal
+  context = 2
+  noprefix = true
 [fetch]
-    prune = true
+  prune = true
+[log]
+  decorate = false
+[push]
+  default = simple
+[status]
+  short = true
+[user]
+  email = tyholling@gmail.com
+  name = Tyler Hollingsworth
