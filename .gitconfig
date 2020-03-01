@@ -1,21 +1,24 @@
 [clean]
   requireForce = false
 [color]
+  branch = always
   diff = always
   status = always
+[color "branch"]
+  current = green bold
 [color "diff"]
   meta = dim
-  old = red black
 [color "status"]
   localBranch = green bold
   remoteBranch = red bold
 [core]
+  abbrev = 8
   autocrlf = input
   safecrlf = false
   whitespace = cr-at-eol
 [diff]
   algorithm = minimal
-  context = 2
+  context = 0
   noprefix = true
 [fetch]
   prune = true

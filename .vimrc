@@ -25,11 +25,13 @@ set viminfo=
 set wildignorecase
 syntax on
 
+autocmd BufRead Vagrantfile set syntax=ruby
+
 autocmd colorscheme * highlight ColorColumn     cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorColumn    cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorLine      cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorLineNr    cterm=none                  ctermfg=White
-autocmd colorscheme * highlight LineNr          cterm=none                  ctermfg=Magenta
+autocmd colorscheme * highlight LineNr          cterm=none ctermbg=Black    ctermfg=Magenta
 autocmd colorscheme * highlight MatchParen      cterm=none ctermbg=Black
 autocmd colorscheme * highlight NonText         cterm=none                  ctermfg=Black
 autocmd colorscheme * highlight Search          cterm=none ctermbg=DarkBlue ctermfg=White
@@ -40,14 +42,13 @@ autocmd colorscheme * highlight VertSplit       cterm=none ctermbg=Black
 autocmd colorscheme * highlight Visual          cterm=none ctermbg=Black
 colorscheme elflord
 
-nmap <C-Down> <C-e><Down>
-nmap <C-Up> <C-y><Up>
-nmap <2-LeftMouse> *N
-nmap n nzz
-
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_sort_by = "name"
 let g:netrw_sort_options = "i"
 
-autocmd BufRead Vagrantfile set syntax=ruby
+nmap n nzz
+nmap * *N
+nmap <2-LeftMouse> *
+nmap <C-Down> <C-e><Down>
+nmap <C-Up> <C-y><Up>
