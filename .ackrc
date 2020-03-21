@@ -2,7 +2,7 @@
 --color
 --color-filename=bright_red
 --color-lineno=bright_magenta
---color-match=on_bright_black
+--color-match=on_black
 --follow
 --heading
 --ignore-case

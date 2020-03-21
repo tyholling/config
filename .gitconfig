@@ -8,6 +8,7 @@
   current = green bold
 [color "diff"]
   meta = dim
+  old = red black
 [color "status"]
   localBranch = green bold
   remoteBranch = red bold

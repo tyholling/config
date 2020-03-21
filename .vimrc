@@ -1,5 +1,5 @@
+set autoindent
 set backspace=2
-set cindent
 set colorcolumn=120
 set cursorcolumn
 set cursorline
@@ -17,6 +17,7 @@ set novisualbell
 set nowrap
 set number
 set ruler
+set scrolloff=0
 set shiftwidth=2
 set splitbelow
 set splitright
@@ -24,8 +25,6 @@ set tabstop=2
 set viminfo=
 set wildignorecase
 syntax on
-
-autocmd BufRead Vagrantfile set syntax=ruby
 
 autocmd colorscheme * highlight ColorColumn     cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorColumn    cterm=none ctermbg=Black
@@ -50,5 +49,3 @@ let g:netrw_sort_options = "i"
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
-nmap <C-Down> <C-e><Down>
-nmap <C-Up> <C-y><Up>
