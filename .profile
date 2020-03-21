@@ -6,7 +6,7 @@ alias gitsi="gitbb && git status --ignored"
 
 alias grep="grep --color=always"
 
-alias ll="ls -G -ghlop"
+alias ll="ls -ghlop --color"
 alias la="ll -A"
 alias lh="ll -d .?*"
 alias lm="ll -C"
