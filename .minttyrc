@@ -1,10 +1,12 @@
 BackgroundColour=20,20,20
 CopyAsRTF=no
 CursorBlinks=no
-CursorColour=192,192,192
+CursorColour=255,255,255
 CursorType=underscore
 Font=JetBrains Mono
 FontHeight=12
+ForegroundColour=255,255,255
 Scrollbar=none
 Term=xterm-256color
+ThemeFile=xterm
 Window=max
