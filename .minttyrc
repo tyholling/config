@@ -3,7 +3,6 @@ CopyAsRTF=no
 CursorBlinks=no
 CursorColour=255,255,255
 CursorType=underscore
-Font=JetBrains Mono
 FontHeight=12
 ForegroundColour=255,255,255
 Scrollbar=none
