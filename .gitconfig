@@ -29,6 +29,3 @@
   default = simple
 [status]
   short = true
-[user]
-  email = tyholling@gmail.com
-  name = Tyler Hollingsworth
