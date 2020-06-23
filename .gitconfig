@@ -25,7 +25,12 @@
   prune = true
 [log]
   decorate = false
+[pull]
+  ff = only
 [push]
   default = simple
 [status]
   short = true
+[user]
+  email = tyholling@gmail.com
+  name = Tyler Hollingsworth

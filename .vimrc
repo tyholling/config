@@ -18,10 +18,10 @@ set nowrap
 set number
 set ruler
 set scrolloff=0
-set shiftwidth=2
+set shiftwidth=4
 set splitbelow
 set splitright
-set tabstop=2
+set tabstop=4
 set viminfo=
 set wildignorecase
 syntax on
