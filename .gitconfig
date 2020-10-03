@@ -1,36 +1,36 @@
 [clean]
-  requireForce = false
+    requireForce = false
 [color]
-  branch = always
-  diff = always
-  status = always
+    branch = always
+    diff = always
+    status = always
 [color "branch"]
-  current = green bold
+    current = green bold
 [color "diff"]
-  meta = dim
-  old = red black
+    meta = dim
+    old = red black
 [color "status"]
-  localBranch = green bold
-  remoteBranch = red bold
+    localBranch = green bold
+    remoteBranch = red bold
 [core]
-  abbrev = 8
-  autocrlf = input
-  safecrlf = false
-  whitespace = cr-at-eol
+    abbrev = 8
+    autocrlf = input
+    safecrlf = false
+    whitespace = cr-at-eol
 [diff]
-  algorithm = minimal
-  context = 0
-  noprefix = true
+    algorithm = minimal
+    context = 0
+    noprefix = true
 [fetch]
-  prune = true
+    prune = true
 [log]
-  decorate = false
+    decorate = false
 [pull]
-  ff = only
+    ff = only
 [push]
-  default = simple
+    default = simple
 [status]
-  short = true
+    short = true
 [user]
-  email = tyholling@gmail.com
-  name = Tyler Hollingsworth
+    email = tyholling@gmail.com
+    name = Tyler Hollingsworth

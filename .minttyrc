@@ -12,3 +12,4 @@ ForegroundColour=255,255,255
 Scrollbar=none
 Term=xterm-256color
 ThemeFile=xterm
+Window=max

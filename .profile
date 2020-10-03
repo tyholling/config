@@ -16,6 +16,7 @@ export HISTFILE=""
 export LESS="-FIRX"
 export LESSHISTFILE=""
 export PS1="\$PWD\n\\$ "
+export PS2=""
 export VISUAL="vim"
 
 function cd() { clear && builtin cd "$@" && ll; }
