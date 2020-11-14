@@ -1,7 +1,7 @@
-alias gitb="git status --branch | grep ^#"
+alias gitb="git status --branch | head -n1"
 alias gitl="gitb && git log --first-parent --graph --max-count=8 --oneline"
-alias gits="gitb && git status"
-alias gitsi="gitb && git status --ignored"
+alias gits="git status --branch"
+alias gitsi="git status --branch --ignored"
 
 alias grep="grep --color=always"
 
