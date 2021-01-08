@@ -26,22 +26,22 @@ set viminfo=
 set wildignorecase
 syntax on
 
-autocmd colorscheme * highlight ColorColumn     cterm=none  ctermbg=Black
-autocmd colorscheme * highlight CursorColumn    cterm=none  ctermbg=Black
-autocmd colorscheme * highlight CursorLine      cterm=none  ctermbg=Black
+autocmd colorscheme * highlight ColorColumn     cterm=none ctermbg=Black
+autocmd colorscheme * highlight CursorColumn    cterm=none ctermbg=Black
+autocmd colorscheme * highlight CursorLine      cterm=none ctermbg=Black
 autocmd colorscheme * highlight CursorLineNr    cterm=none                  ctermfg=White
-autocmd colorscheme * highlight LineNr          cterm=none  ctermbg=Black   ctermfg=Magenta
-autocmd colorscheme * highlight MatchParen      cterm=none  ctermbg=Black
+autocmd colorscheme * highlight LineNr          cterm=none ctermbg=Black    ctermfg=Magenta
+autocmd colorscheme * highlight MatchParen      cterm=none ctermbg=Black
 autocmd colorscheme * highlight NonText         cterm=none                  ctermfg=Black
-autocmd colorscheme * highlight Search          cterm=none  ctermbg=Blue    ctermfg=White
-autocmd colorscheme * highlight StatusLine      cterm=none  ctermbg=Black
-autocmd colorscheme * highlight StatusLineNC    cterm=none  ctermbg=Black
-autocmd colorscheme * highlight TabLine         cterm=none  ctermbg=Blue    ctermfg=Gray
-autocmd colorscheme * highlight TabLineFill     cterm=none  ctermbg=Black   ctermfg=Black
-autocmd colorscheme * highlight TabLineSel      cterm=none  ctermbg=Red     ctermfg=White
-autocmd colorscheme * highlight Todo            cterm=none  ctermbg=Black   ctermfg=Red
-autocmd colorscheme * highlight VertSplit       cterm=none  ctermbg=Black
-autocmd colorscheme * highlight Visual          cterm=none  ctermbg=Black
+autocmd colorscheme * highlight Search          cterm=none ctermbg=DarkBlue ctermfg=White
+autocmd colorscheme * highlight StatusLine      cterm=none ctermbg=Black
+autocmd colorscheme * highlight StatusLineNC    cterm=none ctermbg=Black
+autocmd colorscheme * highlight TabLine         cterm=none ctermbg=Blue     ctermfg=Gray
+autocmd colorscheme * highlight TabLineFill     cterm=none ctermbg=Black    ctermfg=Black
+autocmd colorscheme * highlight TabLineSel      cterm=none ctermbg=Red      ctermfg=White
+autocmd colorscheme * highlight Todo            cterm=none ctermbg=Black    ctermfg=Red
+autocmd colorscheme * highlight VertSplit       cterm=none ctermbg=Black
+autocmd colorscheme * highlight Visual          cterm=none ctermbg=Black
 colorscheme elflord
 
 let g:netrw_banner = 0

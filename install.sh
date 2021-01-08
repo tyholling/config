@@ -9,7 +9,7 @@ cp .tmux.conf   ~/
 cp .toprc       ~/
 cp .vimrc       ~/
 
-touch ~/.hushlogin
+touch           ~/.hushlogin
 
 mkdir -p        ~/.ssh
 cp .ssh/config  ~/.ssh/

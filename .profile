@@ -1,14 +1,13 @@
-alias gitb="git status --branch | head -n1"
+alias gitb="git status --branch --short | head -n1"
 alias gitl="gitb && git log --first-parent --graph --max-count=8 --oneline"
-alias gits="git status --branch"
-alias gitsi="git status --branch --ignored"
+alias gits="git status --branch --short"
+alias gitsi="git status --branch --ignored --short"
 
 alias grep="grep --color=always"
 
 alias ll="ls -hlp --color"
 alias la="ll -A"
 alias lh="ll -d .?*"
-alias lm="ll -C"
 alias lp="ll | grep /$"
 
 export GREP_COLORS="fn=93:ln=36:mt=91"
