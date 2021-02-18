@@ -29,6 +29,3 @@
     ff = only
 [push]
     default = simple
-[user]
-    email = tyholling@gmail.com
-    name = Tyler Hollingsworth

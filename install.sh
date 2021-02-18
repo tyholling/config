@@ -6,7 +6,6 @@ cp .inputrc     ~/
 cp .minttyrc    ~/
 cp .profile     ~/
 cp .tmux.conf   ~/
-cp .toprc       ~/
 cp .vimrc       ~/
 
 touch           ~/.hushlogin
