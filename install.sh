@@ -1,14 +1,18 @@
 #!/bin/bash
 
-cp .ackrc       ~/
-cp .gitconfig   ~/
-cp .inputrc     ~/
-cp .profile     ~/
-cp .tmux.conf   ~/
-cp .vimrc       ~/
+files=(
+.ackrc
+.gitconfig
+.inputrc
+.minttyrc
+.profile
+.ssh/config
+.tmux.conf
+.vimrc
+)
 
-touch           ~/.hushlogin
+mkdir -p ~/.ssh
 
-mkdir -p        ~/.ssh
-cp .ssh/config  ~/.ssh/
-chmod 0644      ~/.ssh/config
+for i in ${files[@]}; do
+    cp ./$i ~/$i
+done

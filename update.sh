@@ -1,10 +1,16 @@
 #!/bin/bash
 
-cp ~/.ackrc       ./
-cp ~/.gitconfig   ./
-cp ~/.inputrc     ./
-cp ~/.profile     ./
-cp ~/.tmux.conf   ./
-cp ~/.vimrc       ./
+files=(
+.ackrc
+.gitconfig
+.inputrc
+.minttyrc
+.profile
+.ssh/config
+.tmux.conf
+.vimrc
+)
 
-cp ~/.ssh/config  .ssh/
+for i in ${files[@]}; do
+    [[ -e ~/$i ]] && cp ~/$i ./$i
+done
