@@ -13,7 +13,6 @@
 	localBranch = green bold
 	remoteBranch = red bold
 [core]
-	abbrev = 8
 	autocrlf = input
 	safecrlf = false
 	whitespace = cr-at-eol
