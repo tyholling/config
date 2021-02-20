@@ -16,3 +16,5 @@ mkdir -p ~/.ssh
 for i in ${files[@]}; do
     cp ./$i ~/$i
 done
+
+touch ~/.hushlogin
