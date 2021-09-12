@@ -1,3 +1,5 @@
+[advice]
+	detachedHead = false
 [clean]
 	requireForce = false
 [color]
@@ -12,13 +14,16 @@
 [color "status"]
 	localBranch = green bold
 	remoteBranch = red bold
+[commit]
+	gpgsign = false
 [core]
+	abbrev = 8
 	autocrlf = input
 	safecrlf = false
 	whitespace = cr-at-eol
 [diff]
 	algorithm = minimal
-	context = 2
+	context = 0
 	noprefix = true
 [fetch]
 	prune = true
@@ -28,3 +33,6 @@
 	ff = only
 [push]
 	default = simple
+[user]
+	email = tyholling@gmail.com
+	name = Tyler Hollingsworth

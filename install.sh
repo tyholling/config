@@ -14,7 +14,7 @@ files=(
 mkdir -p ~/.ssh
 
 for i in ${files[@]}; do
-    cp ./$i ~/$i
+	cp ./$i ~/$i
 done
 
 touch ~/.hushlogin

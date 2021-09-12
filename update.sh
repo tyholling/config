@@ -12,5 +12,5 @@ files=(
 )
 
 for i in ${files[@]}; do
-    [[ -e ~/$i ]] && cp ~/$i ./$i
+	[[ -e ~/$i ]] && cp ~/$i ./$i
 done

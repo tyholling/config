@@ -4,8 +4,8 @@ set colorcolumn=120
 set cursorcolumn
 set cursorline
 set encoding=utf-8
-set expandtab
-set fillchars=vert:\ 
+set fillchars+=stlnc:-
+set fillchars+=vert:\ 
 set hlsearch
 set ignorecase
 set incsearch
@@ -19,10 +19,10 @@ set nowrap
 set number
 set ruler
 set scrolloff=0
-set shiftwidth=4
+set shiftwidth=2
 set splitbelow
 set splitright
-set tabstop=4
+set tabstop=2
 set viminfo=
 set wildignorecase
 syntax on
@@ -55,3 +55,4 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
+nmap \ <Esc>:noh<Return>
