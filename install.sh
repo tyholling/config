@@ -4,7 +4,6 @@ files=(
 .ackrc
 .gitconfig
 .inputrc
-.minttyrc
 .profile
 .ssh/config
 .tmux.conf

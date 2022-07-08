@@ -31,8 +31,9 @@ autocmd colorscheme * highlight ColorColumn     cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorColumn    cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorLine      cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorLineNr    cterm=none  ctermbg=Black   ctermfg=Blue
+autocmd colorscheme * highlight Error           cterm=none  ctermbg=Magenta
 autocmd colorscheme * highlight LineNr          cterm=none  ctermbg=Black   ctermfg=Magenta
-autocmd colorscheme * highlight MatchParen      cterm=none  ctermbg=Black
+autocmd colorscheme * highlight MatchParen      cterm=none  ctermbg=Magenta ctermfg=Black
 autocmd colorscheme * highlight NonText         cterm=none                  ctermfg=Black
 autocmd colorscheme * highlight Search          cterm=none  ctermbg=Blue    ctermfg=White
 autocmd colorscheme * highlight StatusLine      cterm=none  ctermbg=Black

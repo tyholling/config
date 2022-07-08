@@ -14,21 +14,27 @@
 [color "status"]
 	localBranch = green bold
 	remoteBranch = red bold
-[commit]
-	gpgsign = false
 [core]
 	abbrev = 8
 	autocrlf = input
+	pager = delta --color-only
 	safecrlf = false
 	whitespace = cr-at-eol
+[delta]
+	line-numbers = true
+	syntax-theme = zenburn
 [diff]
 	algorithm = minimal
-	context = 0
+	context = 1
 	noprefix = true
 [fetch]
 	prune = true
+[interactive]
+	diffFilter = delta --color-only
 [log]
 	decorate = false
+[merge]
+	ff = false
 [pull]
 	ff = only
 [push]
