@@ -44,7 +44,7 @@ autocmd colorscheme * highlight TabLineSel      cterm=none  ctermbg=Red     cter
 autocmd colorscheme * highlight Todo            cterm=none  ctermbg=Black   ctermfg=Red
 autocmd colorscheme * highlight VertSplit       cterm=none  ctermbg=Black
 autocmd colorscheme * highlight Visual          cterm=none  ctermbg=Blue    ctermfg=Gray
-colorscheme elflord
+colorscheme default
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
