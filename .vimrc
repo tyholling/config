@@ -31,9 +31,11 @@ autocmd colorscheme * highlight ColorColumn     cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorColumn    cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorLine      cterm=none  ctermbg=Black
 autocmd colorscheme * highlight CursorLineNr    cterm=none  ctermbg=Black   ctermfg=Blue
+autocmd colorscheme * highlight EndOfBuffer     cterm=none  ctermbg=none
 autocmd colorscheme * highlight Error           cterm=none  ctermbg=Magenta
 autocmd colorscheme * highlight LineNr          cterm=none  ctermbg=Black   ctermfg=Magenta
 autocmd colorscheme * highlight MatchParen      cterm=none  ctermbg=Magenta ctermfg=Black
+autocmd colorscheme * highlight Normal          cterm=none  ctermbg=none
 autocmd colorscheme * highlight NonText         cterm=none                  ctermfg=Black
 autocmd colorscheme * highlight Search          cterm=none  ctermbg=Blue    ctermfg=White
 autocmd colorscheme * highlight StatusLine      cterm=none  ctermbg=Black
@@ -44,7 +46,7 @@ autocmd colorscheme * highlight TabLineSel      cterm=none  ctermbg=Red     cter
 autocmd colorscheme * highlight Todo            cterm=none  ctermbg=Black   ctermfg=Red
 autocmd colorscheme * highlight VertSplit       cterm=none  ctermbg=Black
 autocmd colorscheme * highlight Visual          cterm=none  ctermbg=Blue    ctermfg=Gray
-colorscheme default
+colorscheme elflord
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
