@@ -8,6 +8,7 @@ alias ll="ls -ghlop"
 alias lp="ll -d *"
 
 export GOPATH="/opt/go"
+export GOPROXY="https://proxy.golang.org"
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
 export LESS="-FIRXx2"
