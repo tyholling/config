@@ -4,7 +4,7 @@ alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
 alias la="ll -A"
 alias lh="ll -d .?*"
-alias ll="ls -ghlop"
+alias ll="ls -hlp --time-style long-iso"
 alias lp="ll -d *"
 
 export GOPATH="/opt/go"
