@@ -9,7 +9,7 @@ set fillchars+=vert:\
 set hlsearch
 set ignorecase
 set incsearch
-set laststatus=2
+set laststatus=1
 set list
 set listchars=tab:\ \ 
 set mouse=n
