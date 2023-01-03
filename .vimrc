@@ -1,6 +1,6 @@
 set autoindent
 set backspace=2
-set colorcolumn=120
+set colorcolumn=100
 set cursorcolumn
 set cursorline
 set encoding=utf-8
