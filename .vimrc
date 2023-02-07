@@ -1,5 +1,5 @@
-set autoindent
 set backspace=2
+set cindent
 set colorcolumn=100
 set cursorcolumn
 set cursorline
@@ -20,6 +20,7 @@ set number
 set ruler
 set scrolloff=0
 set shiftwidth=2
+set softtabstop=2
 set splitbelow
 set splitright
 set tabstop=2
