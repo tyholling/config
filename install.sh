@@ -1,13 +1,13 @@
 #!/bin/bash
 
 files=(
-.ackrc
-.gitconfig
-.inputrc
-.profile
-.ssh/config
-.tmux.conf
-.vimrc
+	.ackrc
+	.gitconfig
+	.inputrc
+	.profile
+	.ssh/config
+	.tmux.conf
+	.vimrc
 )
 
 mkdir -p ~/.ssh
