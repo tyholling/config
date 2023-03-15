@@ -29,6 +29,8 @@
 	noprefix = true
 [fetch]
 	prune = true
+[init]
+	defaultBranch = main
 [interactive]
 	diffFilter = delta --color-only
 [log]
