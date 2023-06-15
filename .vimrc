@@ -4,7 +4,6 @@ set colorcolumn=100
 set cursorcolumn
 set cursorline
 set encoding=utf-8
-set expandtab
 set fillchars+=vert:\ 
 set hlsearch
 set ignorecase
@@ -18,7 +17,6 @@ set novisualbell
 set nowrap
 set number
 set ruler
-set scrolloff=0
 set shiftwidth=2
 set softtabstop=2
 set splitbelow

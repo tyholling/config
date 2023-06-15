@@ -1,4 +1,4 @@
-alias gitl="git log --decorate --graph --max-count 6 --oneline"
+alias gitl="git log --decorate --graph --max-count 8 --oneline"
 alias gits="git status --branch --short"
 alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
