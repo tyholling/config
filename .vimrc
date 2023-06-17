@@ -54,4 +54,4 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
-nmap \ <Esc>:noh<Return>
+nmap \ <Esc>:noh<Return><C-l>
