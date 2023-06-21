@@ -11,12 +11,13 @@ set incsearch
 set laststatus=1
 set list
 set listchars=tab:\ \ 
-set mouse=n
+set mouse=a
 set nobomb
 set novisualbell
 set nowrap
 set number
 set ruler
+set scrolloff=0
 set shiftwidth=2
 set softtabstop=2
 set splitbelow
