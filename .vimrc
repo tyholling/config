@@ -34,7 +34,7 @@ autocmd colorscheme * highlight CursorLineNr  cterm=none  ctermbg=233 ctermfg=20
 autocmd colorscheme * highlight Error         cterm=none  ctermbg=088
 autocmd colorscheme * highlight LineNr        cterm=none              ctermfg=164
 autocmd colorscheme * highlight MatchParen    cterm=none  ctermbg=239
-autocmd colorscheme * highlight Search        cterm=none  ctermbg=052 ctermfg=251
+autocmd colorscheme * highlight Search        cterm=none  ctermbg=053 ctermfg=251
 autocmd colorscheme * highlight StatusLine    cterm=none  ctermbg=233 ctermfg=251
 autocmd colorscheme * highlight StatusLineNC  cterm=none  ctermbg=233 ctermfg=239
 autocmd colorscheme * highlight TabLine       cterm=none  ctermbg=016 ctermfg=239
@@ -42,7 +42,7 @@ autocmd colorscheme * highlight TabLineFill   cterm=none  ctermbg=233
 autocmd colorscheme * highlight TabLineSel    cterm=none  ctermbg=016 ctermfg=251
 autocmd colorscheme * highlight Todo          cterm=none  ctermbg=016 ctermfg=196
 autocmd colorscheme * highlight VertSplit     cterm=none  ctermbg=233 ctermfg=233
-autocmd colorscheme * highlight Visual        cterm=none  ctermbg=053 ctermfg=251
+autocmd colorscheme * highlight Visual        cterm=none  ctermbg=052 ctermfg=251
 colorscheme elflord
 
 let g:netrw_banner = 0
