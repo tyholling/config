@@ -4,6 +4,7 @@ set colorcolumn=100
 set cursorcolumn
 set cursorline
 set encoding=utf-8
+set expandtab
 set fillchars+=vert:\ 
 set hlsearch
 set ignorecase
