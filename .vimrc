@@ -19,7 +19,9 @@ set nowrap
 set number
 set ruler
 set scrolloff=0
+set shiftround
 set shiftwidth=2
+set smartcase
 set softtabstop=2
 set splitbelow
 set splitright
@@ -57,4 +59,4 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
-nmap \ <Esc>:noh<Return><C-l>
+nmap \ :echo<Return>
