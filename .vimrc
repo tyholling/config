@@ -59,4 +59,4 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
-nmap \ :echo<Return>
+nmap \ :noh\|echo<Return>
