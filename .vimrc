@@ -28,6 +28,7 @@ set splitright
 set tabstop=2
 set viminfo=
 set wildignorecase
+set wildmenu
 syntax on
 
 autocmd colorscheme * highlight ColorColumn   cterm=none  ctermbg=233
