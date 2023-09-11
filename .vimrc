@@ -3,6 +3,7 @@ set backspace=2
 set colorcolumn=100
 set cursorcolumn
 set cursorline
+set directory=/tmp
 set encoding=utf-8
 set expandtab
 set fillchars+=vert:\ 
