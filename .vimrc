@@ -10,7 +10,8 @@ set fillchars+=vert:\
 set hlsearch
 set ignorecase
 set incsearch
-set laststatus=1
+set iskeyword+=-
+set laststatus=2
 set list
 set listchars=tab:\ \ 
 set mouse=a
@@ -25,6 +26,7 @@ set shiftwidth=2
 set smartcase
 set softtabstop=2
 set splitbelow
+set splitkeep=screen
 set splitright
 set tabstop=2
 set viminfo=
