@@ -1,3 +1,4 @@
+set autochdir
 set autoindent
 set backspace=2
 set colorcolumn=100
