@@ -1,5 +1,5 @@
 alias di="delta --color-only"
-alias gitl="git log --graph --max-count 20 --oneline"
+alias gitl="git log --all --graph --max-count 20 --oneline"
 alias gits="git status --branch --short"
 alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
