@@ -18,5 +18,5 @@ export PS1="\$PWD\n\\$ "
 export PS2=""
 export VISUAL="vim"
 
-function cd() { clear; builtin cd "$@"; lp; }
-function ff() { find . -iname "*$1*"; }
+function cd { clear; builtin cd "$@"; lp; }
+function ff { find . -iname "*$1*"; }
