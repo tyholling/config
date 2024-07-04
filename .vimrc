@@ -6,6 +6,7 @@ set cursorline
 set directory=/tmp
 set encoding=utf-8
 set expandtab
+set fillchars+=eob:-
 set fillchars+=vert:\ 
 set hlsearch
 set ignorecase
@@ -14,7 +15,7 @@ set iskeyword+=-
 set laststatus=2
 set list
 set listchars=tab:\ \ 
-set mouse=a
+set mouse=in
 set nobomb
 set novisualbell
 set nowrap
