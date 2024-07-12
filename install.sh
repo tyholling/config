@@ -1,14 +1,14 @@
 #!/bin/bash
 
 files=(
-	.ackrc
+  .ackrc
   .config/bat/config
-	.gitconfig
-	.inputrc
-	.profile
-	.ssh/config
-	.tmux.conf
-	.vimrc
+  .gitconfig
+  .inputrc
+  .profile
+  .ssh/config
+  .tmux.conf
+  .vimrc
 )
 
 for i in ${files[@]}; do
