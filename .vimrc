@@ -65,4 +65,5 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
+nmap <C-i> gt
 nmap \ :noh\|echo<Return>
