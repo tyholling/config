@@ -14,7 +14,7 @@ export HISTFILE=""
 export LESS="-FIRXx2"
 export LESSHISTFILE=""
 export PATH="/opt/go/bin:/opt/homebrew/bin:/usr/local/go/bin:$PATH"
-export PS1="\$PWD\n\\$ "
+export PS1="\w\n\\$ "
 export PS2=""
 export VISUAL="vim"
 
