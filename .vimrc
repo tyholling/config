@@ -65,6 +65,6 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
-nmap <C-[> gt
-nmap <C-]> gT
+nmap <C-[> gT
+nmap <C-]> gt
 nmap \ :noh\|echo<Return>
