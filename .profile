@@ -8,6 +8,7 @@ alias lh="ll -d .?*"
 alias ll="ls -hlp"
 alias lp="ls -p"
 
+export EDITOR="vim"
 export GOPATH="/opt/go"
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
