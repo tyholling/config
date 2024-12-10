@@ -25,6 +25,7 @@ set scrolloff=0
 set shiftround
 set shiftwidth=2
 set smartcase
+set smartindent
 set softtabstop=2
 set splitbelow
 set splitkeep=screen
