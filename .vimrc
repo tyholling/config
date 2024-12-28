@@ -40,7 +40,7 @@ syntax on
 autocmd colorscheme * highlight ColorColumn   cterm=none  ctermbg=233
 autocmd colorscheme * highlight CursorColumn  cterm=none  ctermbg=233
 autocmd colorscheme * highlight CursorLine    cterm=none  ctermbg=233
-autocmd colorscheme * highlight CursorLineNr  cterm=none  ctermbg=233 ctermfg=201
+autocmd colorscheme * highlight CursorLineNr  cterm=none  ctermbg=233 ctermfg=251
 autocmd colorscheme * highlight Error         cterm=none  ctermbg=088
 autocmd colorscheme * highlight ErrorMsg      cterm=none  ctermbg=018
 autocmd colorscheme * highlight LineNr        cterm=none              ctermfg=164
