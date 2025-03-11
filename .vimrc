@@ -69,4 +69,5 @@ nmap * *N
 nmap <2-LeftMouse> *
 nmap <C-[> gT
 nmap <C-]> gt
-nmap \ :noh\|echo<Return>
+nmap \ :noh\|echo<Enter>
+nmap k 0y$/<C-R>"<Enter>N
