@@ -28,6 +28,7 @@ set smartcase
 set smartindent
 set softtabstop=2
 set splitbelow
+set splitkeep=screen
 set splitright
 set tabstop=2
 set viminfo=
@@ -66,4 +67,6 @@ match Error /\s\+$/
 nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
+nmap <C-[> gT
+nmap <C-]> gt
 nmap \ :noh\|echo<Enter>
