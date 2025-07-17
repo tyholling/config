@@ -44,7 +44,7 @@ autocmd colorscheme * highlight CursorLineNr  cterm=none  ctermbg=233 ctermfg=25
 autocmd colorscheme * highlight Error         cterm=none  ctermbg=088
 autocmd colorscheme * highlight ErrorMsg      cterm=none  ctermbg=018
 autocmd colorscheme * highlight LineNr        cterm=none              ctermfg=164
-autocmd colorscheme * highlight MatchParen    cterm=none  ctermbg=239
+autocmd colorscheme * highlight MatchParen    cterm=none  ctermbg=239 ctermfg=016
 autocmd colorscheme * highlight ModeMsg       cterm=none              ctermfg=245
 autocmd colorscheme * highlight Search        cterm=none  ctermbg=053 ctermfg=251
 autocmd colorscheme * highlight StatusLine    cterm=none  ctermbg=233 ctermfg=251
