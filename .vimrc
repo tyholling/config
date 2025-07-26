@@ -1,5 +1,5 @@
 set autoindent
-set backspace=2
+set backspace=indent,eol,start
 set colorcolumn=100
 set cursorcolumn
 set cursorline
