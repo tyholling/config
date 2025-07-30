@@ -6,6 +6,7 @@ set cursorline
 set directory=/tmp
 set encoding=utf-8
 set expandtab
+set fileencoding=utf-8
 set fileformats=unix
 set fillchars+=eob:-
 set fillchars+=vert:\ 
