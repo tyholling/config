@@ -64,7 +64,7 @@ let g:netrw_liststyle = 3
 let g:netrw_sort_by = "name"
 let g:netrw_sort_options = "i"
 
-match Error /\s\+$/
+autocmd vimenter,winenter * match Error /\s\+$/
 
 nmap n nzz
 nmap * *N
