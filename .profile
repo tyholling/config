@@ -19,4 +19,4 @@ export PS2=""
 export VISUAL="vim"
 
 function cd { clear; builtin cd "$@"; ll; }
-function ff { find . -iname "*$1*"; }
+function ff { find . -iname "*$1*" ${@:2}; }
