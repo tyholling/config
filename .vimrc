@@ -8,6 +8,7 @@ set encoding=utf-8
 set expandtab
 set fileencoding=utf-8
 set fileformats=unix
+set filetype=on
 set fillchars+=eob:-
 set fillchars+=vert:\ 
 set hlsearch
@@ -58,6 +59,8 @@ autocmd colorscheme * highlight Todo          cterm=none  ctermbg=016 ctermfg=19
 autocmd colorscheme * highlight VertSplit     cterm=none  ctermbg=233 ctermfg=233
 autocmd colorscheme * highlight Visual        cterm=none  ctermbg=052 ctermfg=251
 colorscheme elflord
+
+filetype plugin indent on
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
