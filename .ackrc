@@ -5,5 +5,7 @@
 --color-match=on_black
 --follow
 --heading
+--ignore-file=ext:backup
+--ignore-file=ext:tfstate
 --smart-case
 --sort-files

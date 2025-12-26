@@ -32,6 +32,7 @@
 	tabs = 2
 [diff]
 	algorithm = minimal
+	context = 1
 [fetch]
 	prune = true
 [init]
