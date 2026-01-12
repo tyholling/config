@@ -5,7 +5,9 @@
 --color-match=on_black
 --follow
 --heading
+--ignore-dir=.terraform
 --ignore-file=ext:backup
+--ignore-file=ext:terraform\.lock\.hcl
 --ignore-file=ext:tfstate
 --smart-case
 --sort-files
