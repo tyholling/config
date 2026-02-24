@@ -40,25 +40,25 @@ set wildmenu
 set wildmode=longest,list
 syntax on
 
-autocmd colorscheme * highlight ColorColumn   cterm=none  ctermbg=233
-autocmd colorscheme * highlight CursorColumn  cterm=none  ctermbg=233
-autocmd colorscheme * highlight CursorLine    cterm=none  ctermbg=233
-autocmd colorscheme * highlight CursorLineNr  cterm=none  ctermbg=233 ctermfg=251
-autocmd colorscheme * highlight Error         cterm=none  ctermbg=088
-autocmd colorscheme * highlight ErrorMsg      cterm=none  ctermbg=018
-autocmd colorscheme * highlight LineNr        cterm=none              ctermfg=164
-autocmd colorscheme * highlight MatchParen    cterm=none  ctermbg=239 ctermfg=016
-autocmd colorscheme * highlight ModeMsg       cterm=none              ctermfg=245
-autocmd colorscheme * highlight Search        cterm=none  ctermbg=053 ctermfg=251
-autocmd colorscheme * highlight StatusLine    cterm=none  ctermbg=233 ctermfg=251
-autocmd colorscheme * highlight StatusLineNC  cterm=none  ctermbg=233 ctermfg=239
-autocmd colorscheme * highlight TabLine       cterm=none  ctermbg=016 ctermfg=160
-autocmd colorscheme * highlight TabLineFill   cterm=none  ctermbg=016
-autocmd colorscheme * highlight TabLineSel    cterm=none  ctermbg=016 ctermfg=251
-autocmd colorscheme * highlight Todo          cterm=none  ctermbg=016 ctermfg=196
-autocmd colorscheme * highlight VertSplit     cterm=none  ctermbg=233 ctermfg=233
-autocmd colorscheme * highlight Visual        cterm=none  ctermbg=052 ctermfg=251
 colorscheme elflord
+highlight ColorColumn  cterm=none ctermbg=052
+highlight CursorColumn cterm=none ctermbg=233
+highlight CursorLine   cterm=none ctermbg=017
+highlight CursorLineNr cterm=none ctermbg=017 ctermfg=251
+highlight Error        cterm=none ctermbg=088
+highlight ErrorMsg     cterm=none ctermbg=018
+highlight LineNr       cterm=none             ctermfg=164
+highlight MatchParen   cterm=none ctermbg=239 ctermfg=016
+highlight ModeMsg      cterm=none             ctermfg=245
+highlight Search       cterm=none ctermbg=053 ctermfg=251
+highlight StatusLine   cterm=none ctermbg=233 ctermfg=251
+highlight StatusLineNC cterm=none ctermbg=233 ctermfg=239
+highlight TabLine      cterm=none ctermbg=233 ctermfg=239
+highlight TabLineFill  cterm=none ctermbg=233
+highlight TabLineSel   cterm=none ctermbg=233 ctermfg=251
+highlight Todo         cterm=none ctermbg=016 ctermfg=196
+highlight VertSplit    cterm=none ctermbg=233 ctermfg=233
+highlight Visual       cterm=none ctermbg=052 ctermfg=251
 
 filetype plugin indent on
 
