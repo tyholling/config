@@ -23,13 +23,26 @@
 	safecrlf = false
 	whitespace = cr-at-eol
 [delta]
+	file-decoration-style = dim ul
+	file-style = dim
+	hunk-header-style = omit
 	line-numbers = true
-	minus-style = red
-	minus-emph-style = normal 052
-	plus-style = green
-	plus-emph-style = normal 235
+	line-numbers-left-format = "{nm:6} "
+	line-numbers-minus-style = "#505050" "#202020"
+	line-numbers-right-format = "{nm:6} "
+	line-numbers-zero-style = "#505050" "#101010"
+	minus-emph-style = auto "#700000"
+	minus-empty-line-marker-style = auto "#400000"
+	minus-non-emph-style = auto "#400000"
+	minus-style = auto "#400000"
+	plus-emph-style = auto "#005000"
+	plus-empty-line-marker-style = auto "#003000"
+	plus-non-emph-style = auto "#003000"
+	plus-style = auto "#003000"
+	side-by-side = true
 	syntax-theme = none
 	tabs = 2
+	zero-style = auto "#101010"
 [diff]
 	algorithm = minimal
 	context = 0
