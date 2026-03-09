@@ -15,7 +15,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set iskeyword+=-
-set laststatus=2
+set laststatus=3
 set list
 set listchars=tab:\ \ 
 set mouse=in
