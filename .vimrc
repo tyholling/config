@@ -8,7 +8,6 @@ set encoding=utf-8
 set expandtab
 set fileencoding=utf-8
 set fileformats=unix
-set filetype=on
 set fillchars+=eob:-
 set fillchars+=vert:\ 
 set hlsearch
@@ -26,18 +25,20 @@ set number
 set ruler
 set scrolloff=0
 set shiftround
-set shiftwidth=2
+set shiftwidth=4
 set smartcase
 set smartindent
-set softtabstop=2
+set softtabstop=4
 set splitbelow
 set splitkeep=screen
 set splitright
-set tabstop=2
+set tabstop=4
 set viminfo=
 set wildignorecase
 set wildmenu
 set wildmode=longest,list
+
+filetype plugin indent on
 syntax on
 
 colorscheme elflord
@@ -60,18 +61,16 @@ highlight Todo         cterm=none ctermbg=016 ctermfg=196
 highlight VertSplit    cterm=none ctermbg=233 ctermfg=233
 highlight Visual       cterm=none ctermbg=052 ctermfg=251
 
-filetype plugin indent on
-
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_sort_by = "name"
 let g:netrw_sort_options = "i"
 
-autocmd vimenter,winenter * match Error /\s\+$/
+autocmd VimEnter,WinEnter * match Error /\s\+$/
 
-nmap n nzz
 nmap * *N
 nmap <2-LeftMouse> *
 nmap <C-[> gT
 nmap <C-]> gt
 nmap \ :noh\|echo<Enter>
+nmap n nzz
