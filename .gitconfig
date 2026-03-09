@@ -19,7 +19,7 @@
 [core]
 	abbrev = 8
 	autocrlf = input
-	pager = delta --color-only
+	pager = delta
 	safecrlf = false
 	whitespace = cr-at-eol
 [delta]
@@ -50,8 +50,6 @@
 	prune = true
 [init]
 	defaultBranch = main
-[interactive]
-	diffFilter = delta --color-only
 [merge]
 	ff = false
 [pull]
