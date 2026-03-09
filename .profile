@@ -7,7 +7,6 @@ alias grep="grep --color --ignore-case"
 alias la="ll -A"
 alias ll="ls -hlp"
 alias tf="tofu"
-alias vim="nvim"
 
 export EDITOR="nvim"
 export GOPATH="/opt/go"
