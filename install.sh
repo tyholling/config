@@ -2,6 +2,7 @@
 
 files=(
   .ackrc
+  .config/nvim/init.vim
   .gitconfig
   .inputrc
   .profile
