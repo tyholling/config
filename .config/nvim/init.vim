@@ -76,3 +76,6 @@ nmap <C-[> gT
 nmap <C-]> gt
 nmap \ :noh\|echo<Enter>
 nmap n nzz
+
+set rulerformat=%=%{strftime('%H:%M\ ')}
+call timer_start(1000, {-> execute('redrawstatus')}, {'repeat': -1})
