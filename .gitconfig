@@ -50,7 +50,7 @@
 	right-arrow = ->
 	side-by-side = true
 	syntax-theme = none
-	tabs = 2
+	tabs = 4
 	zero-style = auto "#101010"
 [diff]
 	algorithm = minimal
@@ -61,6 +61,8 @@
 	pretty = format:"%C(auto)commit: %H%d%nauthor: %an <%ae>%ndate:   %ad%n%n%s"
 [init]
 	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only --width=variable
 [log]
 	date = iso
 [merge]
