@@ -23,33 +23,46 @@
 	safecrlf = false
 	whitespace = cr-at-eol
 [delta]
-	file-decoration-style = dim ul
+	commit-decoration-style = "#202020" ol
+	commit-regex = ^commit:
+	commit-style = raw
+	file-decoration-style = none
 	file-style = dim
+	hunk-header-decoration-style = none
 	hunk-header-style = omit
+	hyperlinks = false
 	line-numbers = true
-	line-numbers-left-format = "{nm:6} "
-	line-numbers-minus-style = "#505050" "#202020"
-	line-numbers-right-format = "{nm:6} "
-	line-numbers-zero-style = "#505050" "#101010"
-	minus-emph-style = auto "#700000"
+	line-numbers-left-format = " {nm:6}"
+	line-numbers-left-style = auto "#400000"
+	line-numbers-minus-style = "#909090" "#000000"
+	line-numbers-plus-style = "#909090" "#000000"
+	line-numbers-right-format = " {nm:6}"
+	line-numbers-right-style = auto "#003000"
+	line-numbers-zero-style = "#909090" "#101010"
 	minus-empty-line-marker-style = auto "#400000"
+	minus-emph-style = auto "#700000"
 	minus-non-emph-style = auto "#400000"
 	minus-style = auto "#400000"
 	plus-emph-style = auto "#005000"
 	plus-empty-line-marker-style = auto "#003000"
 	plus-non-emph-style = auto "#003000"
 	plus-style = auto "#003000"
+	right-arrow = ->
 	side-by-side = true
 	syntax-theme = none
 	tabs = 2
 	zero-style = auto "#101010"
 [diff]
 	algorithm = minimal
-	context = 0
+	context = 2
 [fetch]
 	prune = true
+[format]
+	pretty = format:"%C(auto)commit: %H%d%nauthor: %an <%ae>%ndate:   %ad%n%n%s"
 [init]
 	defaultBranch = main
+[log]
+	date = iso
 [merge]
 	ff = false
 [pull]
