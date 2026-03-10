@@ -1,7 +1,7 @@
 alias di="delta"
 alias gitd="git diff --cached"
 alias gitl="git log --all --graph --max-count 10 --oneline"
-alias gitlp="git log --patch"
+alias gitla="git log --patch"
 alias gits="git status --branch --short"
 alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
