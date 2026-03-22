@@ -14,3 +14,5 @@ for i in ${files[@]}; do
 	mkdir -p ~/$(dirname $i)
 	install -m 0644 $i ~/$i
 done
+
+touch ~/.hushlogin
