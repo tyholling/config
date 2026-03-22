@@ -48,7 +48,7 @@
 	plus-non-emph-style = auto "#003000"
 	plus-style = auto "#003000"
 	right-arrow = ->
-	side-by-side = true
+	side-by-side = false
 	syntax-theme = none
 	tabs = 4
 	zero-style = auto "#101010"
