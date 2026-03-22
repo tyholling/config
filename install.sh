@@ -1,19 +1,16 @@
 #!/bin/bash
 
 files=(
-  .ackrc
-  .config/nvim/init.vim
-  .gitconfig
-  .inputrc
-  .profile
-  .ssh/config
-  .tmux.conf
-  .vimrc
+	.ackrc
+	.gitconfig
+	.inputrc
+	.profile
+	.ssh/config
+	.tmux.conf
+	.vimrc
 )
 
 for i in ${files[@]}; do
-  mkdir -p ~/$(dirname $i)
-  install -m 0644 $i ~/$i
+	mkdir -p ~/$(dirname $i)
+	install -m 0644 $i ~/$i
 done
-
-touch ~/.hushlogin
