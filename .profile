@@ -9,7 +9,7 @@ alias la="ll -A"
 alias ll="ls -hlp"
 alias tf="tofu"
 
-export EDITOR="nvim"
+export EDITOR="vim"
 export GOPATH="/opt/go"
 export GREP_COLORS="fn=93:ln=36:mt=91"
 export HISTFILE=""
@@ -18,6 +18,6 @@ export LESSHISTFILE=""
 export PATH="/opt/go/bin:/opt/homebrew/bin:$PATH"
 export PS1="\w\n\\$ "
 export PS2=""
-export VISUAL="nvim"
+export VISUAL="vim"
 
 function cd { clear; builtin cd "$@"; ll; }
