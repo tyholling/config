@@ -20,4 +20,4 @@ export PS1="\w\n\\$ "
 export PS2=""
 export VISUAL="vim"
 
-function cd { clear; builtin cd "$@"; ll; }
+function cd { builtin cd "$@" && clear && ll; }
