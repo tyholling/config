@@ -1,5 +1,4 @@
 set autoindent
-set backspace=indent,eol,start
 set colorcolumn=100
 set cursorcolumn
 set cursorline
@@ -17,12 +16,9 @@ set laststatus=2
 set list
 set listchars=tab:\ \ 
 set mouse=in
-set nobomb
-set novisualbell
 set nowrap
 set number
 set ruler
-set scrolloff=0
 set shiftround
 set shiftwidth=4
 set smartcase
