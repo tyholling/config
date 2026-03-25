@@ -6,6 +6,7 @@ set directory=/tmp
 set encoding=utf-8
 set fileencoding=utf-8
 set fileformats=unix
+set filetype=text
 set fillchars+=eob:-
 set fillchars+=vert:\ 
 set hlsearch
@@ -61,6 +62,7 @@ let g:netrw_liststyle = 3
 let g:netrw_sort_by = "name"
 let g:netrw_sort_options = "i"
 
+autocmd FileType text setlocal colorcolumn=0
 autocmd VimEnter,WinEnter * match Error /\s\+$/
 
 nmap * *N
