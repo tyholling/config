@@ -6,7 +6,7 @@ alias gitla="git log --patch"
 alias gits="git status --branch --short"
 alias gitsi="git status --branch --ignored --short"
 alias grep="grep --color --ignore-case"
-alias la="ll -A"
+alias la="ll -a"
 alias ll="ls -hlp"
 alias tf="tofu"
 
