@@ -4,6 +4,7 @@ set cursorcolumn
 set cursorline
 set directory=/tmp
 set encoding=utf-8
+set expandtab
 set fileencoding=utf-8
 set fileformats=unix
 set filetype=text
@@ -34,7 +35,7 @@ set wildignorecase
 set wildmenu
 set wildmode=longest,list
 
-filetype plugin indent on
+filetype plugin on
 syntax on
 
 colorscheme elflord
@@ -42,6 +43,7 @@ highlight ColorColumn  cterm=none ctermbg=052
 highlight CursorColumn cterm=none ctermbg=233
 highlight CursorLine   cterm=none ctermbg=017
 highlight CursorLineNr cterm=none ctermbg=017 ctermfg=251
+highlight Debug        cterm=none ctermbg=053
 highlight Error        cterm=none ctermbg=088
 highlight ErrorMsg     cterm=none ctermbg=018
 highlight LineNr       cterm=none             ctermfg=164
@@ -52,7 +54,7 @@ highlight StatusLine   cterm=none ctermbg=233 ctermfg=251
 highlight StatusLineNC cterm=none ctermbg=233 ctermfg=239
 highlight TabLine      cterm=none ctermbg=233 ctermfg=239
 highlight TabLineFill  cterm=none ctermbg=233
-highlight TabLineSel   cterm=none ctermbg=233 ctermfg=251
+highlight TabLineSel   cterm=none ctermbg=232 ctermfg=251
 highlight Todo         cterm=none ctermbg=016 ctermfg=196
 highlight VertSplit    cterm=none ctermbg=233 ctermfg=233
 highlight Visual       cterm=none ctermbg=052 ctermfg=251
@@ -63,7 +65,8 @@ let g:netrw_sort_by = "name"
 let g:netrw_sort_options = "i"
 
 autocmd FileType text setlocal colorcolumn=0
-autocmd VimEnter,WinEnter * match Error /\s\+$/
+autocmd VimEnter,WinEnter * call matchadd("Debug", '\t\+$')
+autocmd VimEnter,WinEnter * call matchadd("Error", '\ \+$')
 
 nmap * *N
 nmap <2-LeftMouse> *
